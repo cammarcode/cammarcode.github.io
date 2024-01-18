@@ -1,0 +1,38 @@
+#topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02965b;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+.navitem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: larger;
+    width: 100%;
+}
+
+.navitem:hover {
+    background-color: #111;
+}
+
+.construct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    object-fit: cover;
+    gap: 15px;
+
+}
